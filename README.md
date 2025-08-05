@@ -1,10 +1,10 @@
 # 🚗 Automatic Car Parking Toll Gate System
 
-Welcome to RR Techs! This project demonstrates a simple automatic toll gate system using an IR sensor and a servo motor. When a car approaches the gate, the IR sensor detects it and opens the gate automatically. After a short delay, the gate closes again.
+Welcome to *Agafia SG0 Project!* This project demonstrates a simple automatic toll gate system using an IR sensor and a servo motor. When a car approaches the gate, the IR sensor detects it and opens the gate automatically. After a short delay, the gate closes again.
 
 ## 🔧 Hardware Requirements
 
-- Arduino Uno (or compatible board)
+- [Agafia SG0+ Dev board](https://www.sigmaic.com/products/agafia-sg0plus/3977629000000899558)
 - IR Sensor Module
 - Servo Motor (e.g., SG90)
 - Jumper Wires
