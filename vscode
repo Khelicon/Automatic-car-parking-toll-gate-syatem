@@ -1,0 +1,55 @@
+//Welcome to RR techs
+
+#include <Servo.h>
+
+
+Servo tap_servo;
+
+
+int sensor_pin = 7;
+
+int tap_servo_pin =9;
+
+int val;
+
+
+void setup(){
+
+  pinMode(sensor_pin,INPUT);
+
+  tap_servo.attach(tap_servo_pin);
+
+   Serial.begin(9600);
+
+}
+
+
+void loop(){
+
+  val = digitalRead(sensor_pin);
+
+  Serial.println(val);
+
+  if (val==0)
+
+  {
+
+        tap_servo.write(0);
+
+        delay(2000);
+
+        tap_servo.write(270);
+
+  }
+
+  if (val==1)
+
+  {
+
+        tap_servo.write(180);
+
+   
+
+  }
+
+}
