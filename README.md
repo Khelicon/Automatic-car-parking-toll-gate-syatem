@@ -1,5 +1,3 @@
-# Automatic-car-parking-toll-gate-system
-
 # 🚗 Automatic Car Parking Toll Gate System
 
 Welcome to RR Techs! This project demonstrates a simple automatic toll gate system using an IR sensor and a servo motor. When a car approaches the gate, the IR sensor detects it and opens the gate automatically. After a short delay, the gate closes again.
